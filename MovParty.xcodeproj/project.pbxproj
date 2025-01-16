@@ -25,7 +25,7 @@
 		1A6FA24B2D385EC10072F7B3 /* RequestBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FA24A2D385EC10072F7B3 /* RequestBuilderProtocol.swift */; };
 		1A6FA24D2D385EE10072F7B3 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FA24C2D385EE10072F7B3 /* RequestBuilder.swift */; };
 		1A6FA2512D3869F70072F7B3 /* RequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FA2502D3869F70072F7B3 /* RequestBuilderTests.swift */; };
-		1A6FA2542D386AFB0072F7B3 /* URLRequestSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FA2532D386AFB0072F7B3 /* URLRequestSpy.swift */; };
+		1A6FA2562D3960E20072F7B3 /* JSONEncoderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FA2552D3960E20072F7B3 /* JSONEncoderSpy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,7 @@
 		1A6FA24A2D385EC10072F7B3 /* RequestBuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilderProtocol.swift; sourceTree = "<group>"; };
 		1A6FA24C2D385EE10072F7B3 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		1A6FA2502D3869F70072F7B3 /* RequestBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilderTests.swift; sourceTree = "<group>"; };
-		1A6FA2532D386AFB0072F7B3 /* URLRequestSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestSpy.swift; sourceTree = "<group>"; };
+		1A6FA2552D3960E20072F7B3 /* JSONEncoderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncoderSpy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,7 +208,7 @@
 		1A6FA2522D386AE30072F7B3 /* Spies */ = {
 			isa = PBXGroup;
 			children = (
-				1A6FA2532D386AFB0072F7B3 /* URLRequestSpy.swift */,
+				1A6FA2552D3960E20072F7B3 /* JSONEncoderSpy.swift */,
 			);
 			path = Spies;
 			sourceTree = "<group>";
@@ -365,7 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A6FA21B2D3814770072F7B3 /* MovPartyTests.swift in Sources */,
-				1A6FA2542D386AFB0072F7B3 /* URLRequestSpy.swift in Sources */,
+				1A6FA2562D3960E20072F7B3 /* JSONEncoderSpy.swift in Sources */,
 				1A6FA2512D3869F70072F7B3 /* RequestBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

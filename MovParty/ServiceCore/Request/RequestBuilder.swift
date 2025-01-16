@@ -42,7 +42,7 @@ final class RequestBuilder: RequestBuilderProtocol {
                         throw MPError.invalidURL
                     }
                     
-                    var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false)
+                    var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: true)
                     urlComponents?.queryItems = queryItems
                     
                     if let finalUrl = urlComponents?.url {
