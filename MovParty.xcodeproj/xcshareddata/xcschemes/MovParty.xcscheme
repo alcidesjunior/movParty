@@ -51,6 +51,17 @@
                ReferencedContainer = "container:MovParty.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1AAC53202D3ABA710017D384"
+               BuildableName = "MovPartyUnitTests.xctest"
+               BlueprintName = "MovPartyUnitTests"
+               ReferencedContainer = "container:MovParty.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
