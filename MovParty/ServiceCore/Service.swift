@@ -17,7 +17,11 @@ final class Service: ServiceProtocol {
         
         if let body = request.body {
             do {
-                try requestBuilder.setBody(body: body, requestEncoding: request.encoding, method: request.method)
+                try requestBuilder.setBody(
+                    body: body,
+                    requestEncoding: request.encoding,
+                    method: request.method
+                )
             } catch let error {
                 completion(.failure(MPError.failedToEncode(error)))
             }
